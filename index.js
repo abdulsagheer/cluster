@@ -26,6 +26,7 @@ if (cluster.isMaster) {
   // runs simultaneously and share the same server port.
 
   // A cluster is a pool of similar workers running under a parent Node process.
+  // clutser and worker are 2 different ways to create child process
   // Worker Threads in Node.js is useful for performing heavy JavaScript tasks.
   // With the help of threads, Worker makes it easy to run javascript codes in parallel making it much faster and efficient.
   // We can do heavy tasks without even disturbing the main thread.
